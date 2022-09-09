@@ -1,0 +1,42 @@
+
+.container{
+    position: relative;
+    margin: auto;
+    width: 46vmin;
+    height: 50vmin;
+    background-image: url("https://i.pinimg.com/originals/fc/66/21/fc6621843d14511d39c98857d9412be0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hour,#min,#sec{
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1%;
+    height: 21%;
+    top: 26%;
+    left: 48.5%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#min{
+    width: 1%;
+    height: 29%;
+    top: 18%;
+    left: 48.5%;
+    opacity: 0.7;
+    /* display: none; */
+}
+#sec{
+    width: 1%;
+    height: 33%;
+    top: 14%;
+    left: 48.5%;
+    opacity: 0.6;
+}
+.name{
+    text-align: center;
+}
